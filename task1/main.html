@@ -6,21 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <section class="left-section">
-            <img src="images/image.png" alt="left-image">
-        </section>
-        <section class="right-section">
-            <form>
-                <input type="text">
-                <input type="text">
-                <input type="text">
+        <div class="div-form">
+            <h1>Hello!</h1>
+            <span>developed by Luxlorys</span>
+            <form method="">
+                <div class="inp">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" name="username" placeholder="usernmae">
+                </div>
+
+                <div class="inp">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" name="email" placeholder="email">
+                </div>
+
+                <div class="inp">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" placeholder="password">
+                    <i class="fa-solid fa-eye eyes"></i>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" name="remember">
+                    <span>remember me</span>
+                </div>
+
+                <button class="btn">Sign-up</button>
+                <span class="spn-regs">Not a memeber? <a href="#">Register</a></span>
             </form>
-        </section>
-    </div>  
+        </div>
+
+        <div class="div-text">
+            <h1>Welcome!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean condimentum sodales magna a egestas. Nulla in mi ipsum. 
+                Aliquam tincidunt facilisis ante, eget viverra turpis lacinia id. 
+                Vivamus nec ante non massa pretium bibendum at ac metus.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
