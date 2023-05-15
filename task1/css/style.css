@@ -1,0 +1,19 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-section {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.right-section {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
