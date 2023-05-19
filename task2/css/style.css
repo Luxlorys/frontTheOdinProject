@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containter {
+    display: flex;
+    width: 100%;
+}
+
+.container .items {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .items .item {
+    border: 2px solid black;
+    padding: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.container .selected {
+    padding: 550px;
+    background-color: rgb(101, 101, 101);
+}
